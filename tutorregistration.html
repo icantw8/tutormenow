@@ -1,0 +1,58 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="images/clip.png">
+</head>
+<title>Tutor Registration</title>
+
+	<body class="site">
+		<a href="index.html"><img src="images/pic.png"></a>
+			<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="policy.html">Policy</a></li>
+				<li><a> Register</a>
+					<ul>
+						<li><a href = "studentregistration.html" >Student</a></li>
+						<li><a href = "tutorregistration.html" >Tutor</a></li>
+						<!--<li><a><button class="button" onclick= "location.href = 'tutorregistration.html';">Tutor</button></a></li>-->
+					</ul>
+				</li>
+				<li><a>Sign In</a>
+					<ul>
+							<li><a href = "studentsignin.html" >Student</a></li>
+							<li><a href = "tutorsignin.html" > Tutor </a></li>
+					<!--<li><a><button class="button" onclick= "location.href = 'studentsignin.html';">Student</button></a></li>
+						<li><a><button class="button" onclick= "location.href = 'tutorsignin.html';">Tutor</button></a></li> -->
+					</ul>
+				</li>
+			</ul>
+		</div>
+			<div class="header">
+			<div class="title"> Tutor Me Now </div>
+		</div>
+		<div class="main">
+		<div class="container">
+			<div class="content-expand">
+				<h1> Tutor Registration </h1>
+			<form action="tutorinsert.php" method="post">
+				Username: <input type="text" name="username"></br>
+				Password: <input type="password" name="password"></br>
+				Password Confirm: <input type="password" name="password2"></br>
+				First Name: <input type="text" name="firstname"></br>
+				Last Name: <input type="text" name="lastname"></br>
+				<input type = "submit" value = "Submit">
+			</form>
+		 </div>
+		</div>
+		</div> <!--end main div -->
+		<div class="footer">
+		<p align="center"> Copyright TutorMeNow </p>
+		</div>
+
+	</body>
+
+
+</html>
